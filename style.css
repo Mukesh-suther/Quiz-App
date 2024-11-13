@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.card {
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card {
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+ .modal {
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   background-color: #00000080;
+   z-index: 444;
+}
+#card-done.active {
+    display: flex !important;
+}
+.Result-body.active {display: flex !important;}
+/* .popup {
+    max-width: 600px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} */
+.header {
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+#progress-border{
+    height: 4px;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #5372f0;
+    left: -1px;
+}
